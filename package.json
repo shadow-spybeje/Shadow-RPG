@@ -1,0 +1,22 @@
+{
+  "name": "srpg",
+  "version": "2.0.0",
+  "description": "",
+  "main": "srpg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadow-spybeje/Shadow-RPG.git"
+  },
+  "author": "{HSF}ScionSpy#1904 && {HSF}Bejebajay#1904",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shadow-spybeje/Shadow-RPG/issues"
+  },
+  "homepage": "https://github.com/shadow-spybeje/Shadow-RPG#readme",
+  "dependencies": {
+    "discord.js": "^11.5.0"
+  }
+}

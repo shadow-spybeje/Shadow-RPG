@@ -79,14 +79,17 @@ module.exports = {
             await general(srpg);
             await system(srpg);
 
-            await console.log(`S.RPG Version v.${srpg.version}\n`)
-            
+            await console.log("\n---==☆ Shadow's Role Play Game ☆==---\n")
+            await console.log("S.RPG --> Logging On.\n");
+
+            await console.log(`S.RPG --> v.${srpg.version}\n`)
+
             await collect(srpg, fs);
             await srpg.collections.forEach(collection => {
               collection.execute(srpg, fs)
             });
 
-            await console.log(`\n---==☆ Logged Into S.RPG ☆==---\n`);
+            await console.log(`---==☆ Logged Into S.RPG ☆==---\n`);
             return srpg;
         };
         runFile(srpg, fs);
